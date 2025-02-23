@@ -1,5 +1,5 @@
 from exa_py import Exa
-exa= Exa(api_key="d800e108-b97d-45f9-8c1a-11f4228ee303")
+exa= Exa(api_key="YOUR KEY")
 
 searchquery=input('What do you wanna search? ')
 
