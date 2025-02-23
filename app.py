@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from exa_py import Exa
 
 app = Flask(__name__)
-exa = Exa(api_key="d800e108-b97d-45f9-8c1a-11f4228ee303")
+exa = Exa(api_key="YOUR KEY")
 
 @app.route('/', methods=['GET', 'POST'])
 def search():
